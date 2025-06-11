@@ -1,0 +1,151 @@
+:root {
+    --cor-pastel1: #ff85d5;
+    --cor-pastel2: #b671cf;
+    --cor-pastel3: #b8e4ff;
+    --cor-pastel4: #ff94a2;
+    --cor-pastel5: #ffe180;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+}
+main {
+    height: 80vh;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-pastel2);
+    padding: 50px;
+}
+/* Redes Sociais */
+.footer-redes h1 {
+    color: white;
+}
+
+.footer-redes p {
+    color: rgb(241, 250, 250);
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.redes-icons ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+.bi-facebook,
+ .bi-instagram,
+  .bi-linkedin {
+    color: var(--cor-pastel4);
+    
+}
+
+.bi-facebook:hover, 
+ .bi-instagram:hover,
+  .bi-linkedin:hover {
+    color: var(--cor-pastel5);
+}
+
+/* Saiba Mais */
+
+.sobre h3 {
+    font-size: 16px;
+    color: gainsboro;
+    margin-top: 20px;
+}
+
+.footer-mais li, 
+ .footer-mais a{
+   justify-content: left;
+   font-size: 14px;
+   color: rgb(241, 250, 250);
+   text-decoration: underline;
+}
+
+.footer-mais li:hover,
+ .footer-mais a:hover {
+    color:rgb(214, 216, 216);
+    list-style: none;
+    text-decoration: none;
+ }
+
+/* Contatos */
+.contatos h3 {
+    font-size: 16px;
+    color: gainsboro;
+    margin-top: 20px;
+}
+ 
+.contatos-footer li, 
+ .contatos-footer a {
+    color:rgb(241, 250, 250);
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.contatos-footer li:hover, 
+ .contatos-footer a:hover {
+    color:rgb(214, 216, 216);
+    list-style: none;
+    text-decoration: underline;
+}
+
+.contatos-footer li,
+ .contatos-footer a {
+    justify-content: left;
+}
+
+
+.contatos-footer i {
+    padding-right: 15px;
+}
+
+.contatos-footer ul {
+    margin-bottom: 15px;
+}
+
+/* FeedBack */
+
+.input-feedback h4 {
+    color: var(--cor-pastel4);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-info {
+    p {
+        padding-bottom: 5px;
+        color: gainsboro;
+    }
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1.8px solid var(--cor-pastel3);
+}
+
+.button {
+    background-color: var(--cor-pastel3);
+    border: 2px solid rgb(77, 234, 255);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--cor-pastel5);
+    border: 2px solid rgb(243, 217, 70);
+    cursor: pointer;
+    color: var(--cor-pastel1);
+}
